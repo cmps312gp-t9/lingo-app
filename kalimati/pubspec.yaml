@@ -1,0 +1,27 @@
+name: kalimati
+description: Kalimati Phase-1 — Student & Teacher app (CMPS 312)
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: 
+  sqflite: 
+  path_provider: 
+  # Optional (pick your state management if desired)
+  # flutter_riverpod:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/users.json
+    - assets/packages.json
